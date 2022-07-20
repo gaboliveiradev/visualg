@@ -1,0 +1,28 @@
+Estrutura de Repetição - Pseudocódigo
+
+-----------------------------------------------------------------
+Para multiplicado De 0 Ate 10 Faca
+    resultado <- multiplicado * multiplicador
+
+    Escreval("multiplicador, "x" multiplicado, "=", resultado)
+Fimpara
+-----------------------------------------------------------------
+
+-- Ele vai pegar o multiplicador e multiplicar de 0 a 10 segundo a
+-- ordem passada na estrutura de repetição
+
+-- Pegue a var multiplicado que vai começar no 0 e terminar no 10.
+
+-- O "Fimpara" funciona da seguinte forma:
+-- Quando o código chega nele, volta para se repetir até terminar 
+-- a quantia setada no inicio.
+-----------------------------------------------------------------
+-- "i" é a variavél de controle.
+
+Para i De 1 Ate termos Faca
+    Escreval("Digite o número da ", i, " vez: ")
+    Leia(numero_digitado)
+    soma <- soma + numero_digitado
+Fimpara
+
+Escreval("A soma dos ", termos, " termos é ", soma)

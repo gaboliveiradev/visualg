@@ -1,0 +1,53 @@
+
+-- Teste Lógico ( "" = "" )
+-- Teste Lógico sempre será [True or False]
+-- Quando temos uma váriavel que o valor dela vai subindo a cada vez
+que a estrutura de repetição se repete, a gente chama de incremento.
+
+
+Se ( "" = "" ) Entao
+    //...
+Senao
+    //...
+Fimse
+
+--------------------------------------------------------------------
+-- Estrutura Repita
+
+j <- 1
+Repita
+    Escreval("O valor de j é: ", j)
+    j <- j + 1
+Ate j > 10
+
+
+----------------Entenda a Estrutura de Repetição Repita--------------
+
+-- Primeiro temos uma repetição e depois o teste lógico.
+-- No caso a baixo, ele vai repetir até o j ser maior que 10, e caso
+não tiver a váriavel "j <- j + 1" ele irá se repetir infinitamente. 
+Pois a váriavel nunca vai ser maior que 10, sendo assim não será 
+satisfeito o teste lógico
+
+j <- 1
+Repita
+    Escreval("O valor de j é: ", j)
+    j <- j + 1 -- Incremento
+Ate j > 10 -- "j > 10" é um Teste Lógico
+
+---------------------------------------------------------------------
+-- Estrutura Enquanto Faça
+-- A diferença entre a estrutura "Repita Até" para "Enquanto Faça" é
+que elas se invertem. Na "Repita Até" o critério de parada é feito no
+fim da estrutura, enquanto isso na estrutura "Enquanto Faça" esse
+critério é atendido no começo da estrutura.
+
+k <- 1
+
+Enquanto k <= 10 Faca
+    Escreval("O valor de k é: ", k)
+    k <- k + 1
+Fimenquanto
+
+
+

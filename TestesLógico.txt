@@ -1,0 +1,9 @@
+k <- 10
+
+Teste Lógico	|	Resultado	|	Significado
+    k < 10  	 	Falso			k menor que 10
+    k > 10		Falso			k maior que 10
+    k = 10		Verdadeiro		k igual a 10
+    k <= 10		Verdadeiro		k menor ou igual a 10
+    k >= 10 		Verdadeiro		k maior ou igual a 10
+    k <> 10 		Falso			k diferente de 10

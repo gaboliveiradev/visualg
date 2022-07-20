@@ -1,0 +1,24 @@
+
+// Como declarar um procedimento
+
+Procedimento Nome(num1, num2 : Inteiro)
+    Inicio
+       Resultado <- num1 + num2
+Fimprocedimento
+
+Nome(2, 3) // Resultado 5
+
+
+//-----------------------------------------------------------------------
+
+// Como declarar uma função
+// A função sempre tem um retorno
+                                   // O retorno da função subtrair é inteiro
+
+Funcao Nome(num1, num2: Inteiro) : Inteiro
+    Inicio
+       retorne num1 - num2
+Fimfuncao
+
+// Qual a diferença entre procedimentos e funções?
+// R: As funções possuem um retorno.
